@@ -1,26 +1,140 @@
-nav img {
+
+
+.img-logo {
 	height: 50px;
 	width: 50px;
+	padding-right: 500px;
 }
 
-nav {
+nav ul {
 	font-family: 'Raleway', sans-serif;
+	list-style-type: none;
+	text-align: right;
+	padding-right: 20%;
 }
 
-.subimage {
-	position: absolute;
-	top: 100px;
-	left: 100px;
-	background-color: lightgray;
-	color:red;
+nav ul li {
+	display: inline;
+	height: 50px;
 }
 
 .imagenPrincipal {
-	position: relative;
-	width: 100%;
+	background-image: url("img/bannerazul.jpg");
+	padding: 100px 0px 100px 250px;
+	
 }
 
-section article img {
-	height: 50px;
-	width: 50px;
+.subimagen {
+	color:white;
+}
+
+.parrafoImgPrincipal {
+	color:white;
+}
+
+.formBuscar{
+	float: center;
+	text-align: center;
+	background-color: gray;
+}
+
+/*.cuatroarticulos {
+	text-align: center;
+}
+
+.cuatroarticulos article {
+	display: inline-block;
+	text-align: center;
+}*/
+
+
+
+.cuatroarticulos {
+	display: flex;
+	justify-content: center;
+}
+
+.cuatroarticulos article {
+	margin: 20px;
+	background-color: yellow;
+}
+
+.cuatroarticulos article h3 {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.fa {
+	color: blue;
+	
+}
+
+.seisarticulos {
+	
+}
+
+.imagen4articulos {
+	width: 100px;
+	height: 100px;
+}
+
+.imagen6articulos{
+	width: 60px;
+	height: 60px;
+}
+
+.tablaprecio{
+	background-image: url("img/fondotablaprecio.jpg");
+	padding: 100px 0px 100px 0px;
+	text-align: center;
+}
+
+.paquetesprecios {
+	display: flex;
+	justify-content: center;
+	background-color: lightgray;
+}
+
+.caja-precio {
+	background-color: gray;
+	margin: 30px;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.caja-precio ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+.hosting {
+	background-color: darkblue;
+}
+
+.parrafohosting {
+	color: white;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+}
+
+.pie {
+	background-color: gray;
+}
+.pie ul {
+	font-family: 'Raleway', sans-serif;
+	list-style-type: none;
+	text-align: right;
+	padding-right: 20%;
+
+}
+
+.pie ul li {
+	display: inline;
+	padding-left: 15px;
+}
+
+.pie ul li:first-child {
+	padding-right: 500px;
 }
