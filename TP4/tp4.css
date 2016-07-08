@@ -1,0 +1,360 @@
+body{
+	color: #1b1b1b;
+  	font-family: 'Raleway',sans-serif;
+  	font-size: 14px;
+ 	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+img{
+	max-width: 100%; 
+	height: auto;
+}
+
+a,
+a:hover ,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: auto;
+  margin: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu-nav a {
+	margin: 35px 0 0;
+}
+
+.nav-logo {
+	margin: 35px 0 0;
+}
+
+.menu-nav img {
+	max-width: 100%;
+	height: auto;
+}
+
+.menu-lista {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menu-lista li {
+	margin: 0 0 0 35px;
+    padding: 46px 0;
+}
+
+.flex {
+	display: flex;
+}
+
+.pull-right {
+    margin-left: auto;
+}
+
+.header {
+	background-image: url('img/indexbanner-bg3.jpg');
+	height: 550px;
+	background-size: cover;
+}
+
+.titulo-principal {
+	color: #ffffff;
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	font-family: 'Raleway',sans-serif;
+}
+
+.seccion-buscar {
+
+}
+
+.caja-formulario form {
+	position: relative;
+}
+
+.caja-formulario {
+	width: 70%;
+	box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.09);
+	margin: -50px auto;
+}
+
+.caja-buscar {
+	border-radius: 0;
+    font-size: 18px;
+    padding: 36px 355px 36px 30px;
+    margin: 0;
+    border: 1px solid #e1e3e4;
+    box-shadow: inset 0px 5px 3px -4px rgba(50, 50, 50, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.caja-formulario form input[type="submit"] {
+	background: #00abf0 url('img/search.png') 15px 1px / 80% 100% no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 0;
+	font-weight: 700;
+	padding: 39px 28px 40px 60px;
+}
+
+.caja-formulario form input[value="search"] {
+	color: #fff;
+	letter-spacing: 2px;
+	text-align: center;
+}
+/*estilo de los 4 iconos*/
+
+
+.cuatro-articulos {
+	padding-top: 100px;
+}
+
+.icon-1de4 {
+	background-color: #00ffff;
+	width: 65px;
+	height: 65px;
+	border-radius: 70px;
+	margin: auto;
+	color: white;
+}
+
+.icon-1de4 i {
+	padding: 20px 0 0 22px;
+	font-size: 20px;
+}
+
+.icon-2de4 {
+	background-color: #ffcc00;
+	width: 65px;
+	height: 65px;
+	border-radius: 70px;
+	margin: auto;
+	color: white;
+}
+
+.icon-2de4 i {
+	padding: 21px 0 0 23px;
+	font-size: 20px;
+}
+.icon-3de4 {
+	background-color: #ff6d4f;
+	width: 65px;
+	height: 65px;
+	border-radius: 70px;
+	margin: auto;
+	color: white;
+}
+
+.icon-3de4 i {
+	padding: 23px 0 0 22px;
+	font-size: 20px;
+}
+.icon-4de4 {
+	background-color: #ff0000;
+	width: 65px;
+	height: 65px;
+	border-radius: 70px;
+	margin: auto;
+	color: white;
+}
+
+.icon-4de4 i {
+	padding: 20px 0 0 22px;
+	font-size: 24px;
+}
+
+.contenido-4articulos {
+	text-align: center;
+}
+.cuatro-articulos div {
+	justify-content: space-between;
+}
+
+.hostro-services div {
+	justify-content: center;
+
+}
+/**/
+.flex-de-hostro-services {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.smartphone{
+    padding: 0 80px;
+    position: relative;
+    top: 50px;
+}
+
+.lista-izq{
+    text-align: right;
+    margin-right: 40px;
+    position: relative;
+    top: 50px;
+}
+
+.lista-der{
+	margin-left: 30px;
+	position: relative;
+    top: 50px;
+}
+
+.lista-izq ul li img{
+    position: relative;
+    left: 80px;
+    top: 60px;
+}
+
+.lista-der ul li img{
+    position: relative;
+    right: 80px;
+    top: 60px;
+}
+/**/
+
+.titulo, .subtitulo {
+	text-align: center;
+}
+
+
+/*seccion precios*/
+
+.flex-aside {
+	display: flex;
+}
+
+.seccion-precios {
+	background-image: url('img/pricing-bg.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.seccion-precios hgroup {
+	padding-top: 120px;
+}
+
+.seccion-precios aside {
+	justify-content: space-between;
+	position: relative;
+	top: 80px;
+}
+
+.box-precios {
+	padding: 10px 25px;
+	background-color: white;
+	box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.1);
+}
+
+.box-header {
+	text-align:center;
+	font-family: 'Open Sans';
+}
+
+.box-header h4 {
+	letter-spacing: 2px;
+	font-family: 'Raleway';
+}
+.box-header p {
+	font-size: 55px;
+	font-weight: 700;
+}
+
+.box-header p sup {
+	font-size: 20px;
+}
+
+.box-header p span {
+	font-size: 14px;
+	font-weight: 'Raleway';
+	letter-spacing: 1px;
+	display: block;
+}
+
+.linea {
+	border: 0;
+	height: 1px;
+	background-color: #eff1f2;
+}
+
+.box-details {
+	text-align: center;
+}
+
+.box-precios td {
+    padding: 10px 20px;
+}
+
+.tabla1, .tabla2, .tabla3, .tabla4 {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.boton-seleccionar {
+	background: #00adf0;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-color: #2e6da4;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.footer {
+	padding-top: 180px;
+}
+
+.mensaje {
+	background-color: #233141;
+}
+
+.mensaje p {
+	text-align: center;
+	color: white; 
+	padding: 35px 0;
+	margin: 0;
+}
+
+.mensaje p span {
+	color:#00aff1;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.footer-menu {
+	background-color: #151d26;
+}
+.footer-menu div p {
+	color: white;
+}
+.footer-menu div ul li {
+	margin: 15px 35px;
+	color: white;
+}
