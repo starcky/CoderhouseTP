@@ -1,0 +1,230 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+.fondo-nav{
+	background-color: transparent;
+	padding: 15px 150px;
+}
+
+
+.fondo-titulo{
+	background: url('img/header-bg.jpg') no-repeat;
+	height: 700px;
+}
+
+.titulo{
+	text-align: center;
+	padding-top: 180px;
+}
+
+.titulo h1{
+	color: white;
+	font-size: 30px;
+}
+
+.titulo h2{
+	color: white;
+	font-size: 70px;
+}
+
+.div-btn-principal{
+	text-align: center;
+	padding-top: 70px;
+}
+
+.servicios{
+	padding-bottom: 60px;
+}
+
+.titulo-servicios{
+	padding: 60px 0;
+}
+
+.icon-shopping{
+	font-size: 60px;
+	height: 100px;
+	width: 100px;
+	background-color: #fed136;
+	border-radius: 70px;
+	padding: 20px;
+}
+
+.icon-laptop{
+	font-size: 60px;
+	height: 100px;
+	width: 100px;
+	background-color: #fed136;
+	border-radius: 70px;
+	padding: 20px;
+}
+
+.icon-lock{
+	font-size: 60px;
+	height: 100px;
+	width: 100px;
+	background-color: #fed136;
+	border-radius: 70px;
+	padding: 20px;
+}
+
+
+.seccion-portafolio{
+	background-color: #E5E5E5;
+}
+
+
+
+.portafolio{
+
+}
+
+.titulo-portafolio{
+	padding: 50px 0;
+}
+
+.portafolio-1,
+.portafolio-2,
+.portafolio-3,
+.portafolio-4,
+.portafolio-5,
+.portafolio-6{
+	text-align: center;
+	margin: 30px 0;
+
+}
+
+.nombre-portafolio-1,
+.nombre-portafolio-2,
+.nombre-portafolio-3,
+.nombre-portafolio-4,
+.nombre-portafolio-5,
+.nombre-portafolio-6{
+	text-align: center;
+	background-color: white;
+	padding: 30px 0;
+}
+
+.img-portafolio-1,
+.img-portafolio-2,
+.img-portafolio-3,
+.img-portafolio-4,
+.img-portafolio-5,
+.img-portafolio-6{
+	text-align: center;
+	background-color: white;
+
+}
+
+
+.hover-img-portafolio:hover{
+	background: yellow;
+	height: 100%;
+	width: 100%;
+
+}
+
+
+
+.nombre-portafolio-1 h3,
+.nombre-portafolio-2 h3,
+.nombre-portafolio-3 h3,
+.nombre-portafolio-4 h3,
+.nombre-portafolio-5 h3,
+.nombre-portafolio-6 h3{
+	margin: 0;
+}
+
+
+.img-about{
+	border: 8px solid #E5E5E5;
+}
+
+.seccion-team{
+	background-color: #E5E5E5;
+}
+
+.titulo-team{
+	padding: 80px 0 50px 0;
+}
+
+.borde-circulo{
+	border: 8px solid white;
+}
+
+.fondo-icono-redes{
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	border-radius: 100%;
+	/*padding-top: 6px;*/
+	line-height: 40px;	
+}
+
+.texto-team{
+	padding: 60px 0;
+}
+
+.seccion-logos{
+	padding: 50px 0;
+}
+
+.fondo-contacto{
+	background-color: black;
+	background-image: url('img/map-image.png') no-repeat;
+	background-position: center;
+}
+
+.titulo-contacto{
+	color: white;
+	padding: 30px 0;
+}
+
+.titulo-contacto h2{
+	font-size: 50px;
+}
+
+.seccion-contacto{
+	padding: 60px 0;
+}
+.boton-send{
+	margin-top: 30px;
+}
+.boton{
+	color: #ffffff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+.footer{
+	padding: 40px 0;
+}
+
+
+.boton-close-modal{
+	color: #ffffff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px 5px;
+}
+
+.modal-content{
+	padding: 60px 0;
+}
+
+.modal-fullscreen{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}

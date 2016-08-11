@@ -1,0 +1,72 @@
+
+
+%icons{
+	width: 65px;
+	height: 65px;
+	border-radius: 70px;
+	margin: auto;
+	color: #ffffff;
+}
+
+$tamaño-icono: 20px;
+
+ul{
+	list-style: none;
+}
+.header{
+	background: url('img/indexbanner-bg3.jpg') no-repeat;
+    background-size: 100%;
+ }
+
+.titulo-principal {
+	font-family: 'Raleway',sans-serif;
+	color: #ffffff;
+	padding-bottom: 90px;
+}
+
+.formulario{
+	position: relative;
+	bottom: 35px;
+}
+.caja-buscar, .boton-buscar{
+	height: 70px;
+}
+
+.cuatro-articulos{
+	padding: 40px 0;
+}
+
+.icon-1de4{
+	background-color: #00ffff;
+	@extend %icons;
+}
+.icon-1de4 i {
+	padding: 20px 0 0 22px;
+	font-size: $tamaño-icono;
+}
+.icon-2de4{
+	background-color: #ffcc00;
+	@extend %icons;
+}
+
+.icon-2de4 i {
+	padding: 21px 0 0 23px;
+	font-size: $tamaño-icono;
+}
+.icon-3de4{
+	background-color: #ff6d4f;
+	@extend %icons;
+}
+.icon-3de4 i {
+	padding: 23px 0 0 22px;
+	font-size: $tamaño-icono;
+}
+.icon-4de4{
+	background-color: #ff0000;
+	@extend %icons;
+}
+
+.icon-4de4 i {
+	padding: 20px 0 0 22px;
+	font-size: $tamaño-icono;
+}

@@ -1,0 +1,252 @@
+
+
+body{
+	font-family: 'Didact Gothic', sans-serif;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	outline: none;
+	color:black;
+}
+
+br{
+	margin: 0;
+	padding: 0;
+}
+
+.color{
+	color: #4EAB81;
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	font-size: 2em;
+}
+.navbar-header, .items-nav{
+	padding: 15px 0;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #4EAB81;
+	border-radius: 2px;
+	color: white;
+}
+.header{
+	background-image: url('img/background_black_white_wooden_surface_board_1920x1080.jpg');
+	height: 643px;
+}
+
+.titulo-principal{
+	padding-top: 200px;
+	color: white;
+}
+.titulo-portafolio{
+	padding: 60px 0;
+}
+
+/*.congofilms,
+.latele,
+.a1tv,
+.catatumbo,
+.item3{
+	border-radius: 15px;
+	box-shadow: 5px 7px 6px #5F5F5F;
+}*/
+
+.modal-fullscreen{
+	margin: 0;
+	padding: 0 0 0 17px;
+	width: 100%;
+	height: 100%;
+}
+
+.img-max{
+	max-height: 400px;
+}
+
+
+.suma-pixel{
+	padding-top: 20px;
+}
+.congofilms,
+.latele,
+.a1tv{
+	border-radius: 0 0 10px 10px;
+	box-shadow: 4px 6px 5px #5F5F5F;
+}
+
+.img-portafolio{
+	border-radius: 0 0 10px 10px;
+	width: 100%;
+}
+
+.info-portafolio{
+	border-radius: 0 0 10px 10px;
+	
+}
+
+.info-portafolio h3{
+	margin: 0;
+	padding-top: 20px;
+
+}
+
+.info-portafolio p{
+	padding-bottom: 15px;
+}
+
+.carousel-inner{
+	background-color: #4EAB81;
+}
+
+.item{
+	padding: 30px 0;
+	padding: 15px;
+	
+}
+
+.titulo-img-a1tv, .modal-title{
+	color: #4EAB81;
+}
+
+.titulo-experiencia{
+	padding: 60px 0;
+}
+
+.fondo-panel{
+	/*background-color: #222;*/
+	background-color: #4EAB81;
+	padding: 10px 30px;
+	border-radius: 0 0 25px 25px;
+	color: white;
+}
+
+.modal-content{
+	padding: 30px;
+}
+
+.img-logo-modal{
+	padding: 20px 0;
+	max-height: 200px;
+}
+
+/*seccion logos*/
+
+.seccion-logos{
+	background-color: #C1C1C1;
+	padding: 50px 0;
+	margin-top: 50px;
+}
+
+/*.fondo-logos{
+	background-color: #C1C1C1;
+}
+*/
+.borde-circulo{
+	border: 8px solid #4EAB81;
+}
+
+.fondo-icono-redes{
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	background-color: #4EAB81;
+	border-radius: 100%;
+	/*padding-top: 6px;*/
+	line-height: 37px;	
+	border: 2px solid white;
+}
+
+.about{
+	padding: 120px 0;
+}
+
+.about div p{
+	font-size: 20px;
+}
+.links{
+	color: #4EAB81;
+}
+
+.link-popover{
+	max-height: 100px;
+}
+
+.footer{
+	background-color: #222;
+	padding: 80px 0;
+}
+.caja-st{
+	padding-top: 15px;
+}
+.nombre, .profesion, .lista-contacto{
+	color: #777;
+}
+
+.lista-contacto{
+	list-style: none;
+	padding: 0 0 10px 0;
+	margin: 0;
+}
+
+.icon-fono{
+	font-size: 25px;
+	color: #4EAB81;
+}
+
+.icon-email{
+	font-size: 20px;
+	color: #4EAB81;;
+}
+
+.formulario{
+	padding-top: 60px;
+}
+
+.boton-send{
+	padding-top: 15px;
+}
+
+.boton{
+	background-color: #4EAB81;
+	color: white;
+}
+
+.boton-cerrar-a1tv{
+	background-color: #4EAB81;
+	color: white;
+	border: none;
+}
+
+.boton-cerrar-a1tv:hover{
+	background-color: #4EAB81;
+	color: white;
+}
+
+.hr{
+	color: #4EAB81;
+	background-color: #4EAB81;
+	height: 2px;
+}
+
+.derechos{
+	color: #777;
+	padding: 30px 0;
+}
+
+.fondo-derechos{
+	background-color: #e7e7e7;
+	border-radius: 5px;
+}
+
+.max-height{
+	max-height: 400px;
+}
+
+.sub-foto{
+	color: white;
+}
+
+.marcas{
+	max-height: 70px;
+	padding: 15px 0;
+}

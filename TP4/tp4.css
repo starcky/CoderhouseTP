@@ -1,3 +1,4 @@
+
 body{
 	color: #1b1b1b;
   	font-family: 'Raleway',sans-serif;
@@ -33,10 +34,6 @@ a:focus {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.menu-nav a {
-	margin: 35px 0 0;
 }
 
 .nav-logo {
@@ -78,10 +75,6 @@ a:focus {
 	top: 300px;
 	left: 200px;
 	font-family: 'Raleway',sans-serif;
-}
-
-.seccion-buscar {
-
 }
 
 .caja-formulario form {
@@ -134,6 +127,12 @@ a:focus {
 	border-radius: 70px;
 	margin: auto;
 	color: white;
+}
+
+.icon-1de4:hover {
+	transform: translate(0px, -10px);
+	transition-timing-function: ease-in-out;
+	animation-duration: 2s;
 }
 
 .icon-1de4 i {
@@ -269,16 +268,17 @@ a:focus {
 
 .box-header {
 	text-align:center;
-	font-family: 'Open Sans';
+	
 }
 
 .box-header h4 {
 	letter-spacing: 2px;
 	font-family: 'Raleway';
+	font-weight: bold;
 }
 .box-header p {
 	font-size: 55px;
-	font-weight: 700;
+	font-weight: 800;
 }
 
 .box-header p sup {
@@ -303,12 +303,29 @@ a:focus {
 }
 
 .box-precios td {
-    padding: 10px 20px;
+    padding: 10px 25px;
+    font-weight: bold;
 }
 
 .tabla1, .tabla2, .tabla3, .tabla4 {
 	width: 100%;
 	margin-bottom: 20px;
+}
+
+.tabla1 td:last-child {
+	color: red;
+}
+
+.tabla2 td:last-child {
+	color: green;
+}
+
+.tabla3 td:last-child {
+	color: blue;
+}
+
+.tabla4 td:last-child {
+	color: orange;
 }
 
 .boton-seleccionar {
@@ -335,17 +352,21 @@ a:focus {
 	background-color: #233141;
 }
 
-.mensaje p {
+.mensaje div p {
 	text-align: center;
 	color: white; 
-	padding: 35px 0;
+	padding: 80px 0;
 	margin: 0;
+	font-family: 'Raleway';
+	font-size: 30px;
+	font-weight: 200;
 }
 
-.mensaje p span {
+.mensaje div p span {
 	color:#00aff1;
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: 700;
+	font-family: 'Open Sans';
 }
 
 .footer-menu {
@@ -353,8 +374,10 @@ a:focus {
 }
 .footer-menu div p {
 	color: white;
+	margin-top: 40px;
 }
 .footer-menu div ul li {
-	margin: 15px 35px;
+	margin: 40px 35px 40px 35px;
 	color: white;
+	font-family: 'Raleway';
 }

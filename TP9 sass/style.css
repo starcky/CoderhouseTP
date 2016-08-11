@@ -1,0 +1,212 @@
+
+
+
+
+ul{
+	list-style: none;
+}
+.header{
+	background: url('img/indexbanner-bg3.jpg') no-repeat;
+    background-size: 100%;
+ }
+
+
+.titulo-principal {
+	font-family: 'Raleway',sans-serif;
+	color: #ffffff;
+	padding-bottom: 90px;
+}
+
+.formulario{
+	position: relative;
+	bottom: 35px;
+}
+.caja-buscar, .boton-buscar{
+	height: 70px;
+}
+
+.cuatro-articulos{
+	padding: 40px 0;
+}
+
+.icon-1de4 {
+	background-color: #00ffff;
+	width: 65px;
+	height: 65px;
+	border-radius: 70px;
+	margin: auto;
+	color: #ffffff;
+}
+
+.icon-1de4 i {
+	padding: 20px 0 0 22px;
+	font-size: 20px;
+}
+
+.icon-2de4 {
+	background-color: #ffcc00;
+	width: 65px;
+	height: 65px;
+	border-radius: 70px;
+	margin: auto;
+	color: white;
+}
+
+.icon-2de4 i {
+	padding: 21px 0 0 23px;
+	font-size: 20px;
+}
+.icon-3de4 {
+	background-color: #ff6d4f;
+	width: 65px;
+	height: 65px;
+	border-radius: 70px;
+	margin: auto;
+	color: white;
+}
+
+.icon-3de4 i {
+	padding: 23px 0 0 22px;
+	font-size: 20px;
+}
+.icon-4de4 {
+	background-color: #ff0000;
+	width: 65px;
+	height: 65px;
+	border-radius: 70px;
+	margin: auto;
+	color: white;
+}
+
+.icon-4de4 i {
+	padding: 20px 0 0 22px;
+	font-size: 24px;
+}
+
+.contenido-4articulos {
+	text-align: center;
+}
+
+.flex-de-hostro-services{
+	margin: 0 auto;
+}
+
+.lista-izq{
+	text-align: right;
+	padding-top: 100px;
+}
+.lista-der{
+	padding-top: 100px;
+}
+
+.smartphone{
+	text-align: center;
+}
+.titulo{
+	padding-top: 60px;
+}
+.titulo, .subtitulo{
+	text-align: center;
+}
+
+.tablas-aside{
+	margin: 100px 0;
+}
+.seccion-precios {
+	background: url('img/pricing-bg.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.box-precios{
+	background-color: white;
+	box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.1);
+	
+}
+.tablas-aside{
+	
+}
+.box-header{
+	text-align: center;
+	padding: 50px 0;
+}
+
+.mensaje{
+	background-color: #233141;
+}
+
+.mensaje div p {
+	text-align: center;
+	color: white; 
+	padding: 80px 0;
+	margin: 0;
+	font-family: 'Raleway';
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.mensaje div p span {
+	color:#00aff1;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Open Sans';
+}
+
+.footer-menu{
+	background-color: #151d26;
+}
+
+.footer-menu div p {
+	color: white;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.footer-menu div ul li {
+	margin: 20px;
+	color: white;
+	font-family: 'Raleway';
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.titulo-principal{
+		font-family: 'Raleway',sans-serif;
+		color: #ffffff;
+		padding-top: 90px;
+		padding-left: 70px;
+		font-size: 14px;
+	}
+
+	.footer-menu div ul li {
+	margin: 40px 35px 40px 35px;
+	color: white;
+	font-family: 'Raleway';
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	.titulo-principal{
+		font-family: 'Raleway',sans-serif;
+		color: #ffffff;
+		padding-top: 100px;
+		padding-left: 150px;
+		font-size: 14px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+	.titulo-principal{
+		font-family: 'Raleway',sans-serif;
+		color: #ffffff;
+		padding-top: 150px;
+		padding-left: 200px;
+		font-size: 14px;
+
+	}
+}
